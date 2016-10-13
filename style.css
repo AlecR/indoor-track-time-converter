@@ -23,20 +23,20 @@ h2 {
 * --- Track Type Section ---
 */
 
-	#conversion-type {
-		text-align: center;
-	}
+#conversion-type {
+	text-align: center;
+}
 
 
-	#conversion-type-form { 
-		margin: 0 auto;
-	}
+#conversion-type-form { 
+	margin: 0 auto;
+}
 
-	#conversion-type-buttons {
-		display: inline-block;
-		text-align: left;
-		min-width: 227px;
-	}
+#conversion-type-buttons {
+	display: inline-block;
+	text-align: left;
+	min-width: 227px;
+}
 
 /*
 * --- Time Input Section ---
@@ -49,6 +49,7 @@ h2 {
 
 #time-section h2 {
 	margin-bottom: 0px;
+
 }
 
 #time-section p {
@@ -145,7 +146,7 @@ table {
 * === 2x2 GRID LAYOUT ==============================
 */
 
-@media (min-width: 510px) {
+@media (min-width: 32em) {
 
 	/*
 	* --- Section Titles ---
@@ -226,7 +227,7 @@ table {
 * === 4x1 GRID LAYOUT ====================================
 */
 
-@media (min-width: 1000px) {
+@media (min-width: 63em) {
 
 	#input-wrapper {
 		margin: 0 10%;
