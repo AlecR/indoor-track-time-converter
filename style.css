@@ -41,7 +41,7 @@ h2 {
 	height:50px;
 	left:0;
 	right:0;
-	text-align: center;
+	text-align: center;	
 }
 
 /*
@@ -338,6 +338,7 @@ footer {
 
 	#conversion-type {
 		width:20%;
+		min-width: 15%;
 		margin: 0 2.5%;
 		height:200px;
 	}
@@ -348,6 +349,7 @@ footer {
 
 	#events {
 		width:20%;
+		min-width: 15%;
 		margin: 0 2.5%;
 		height:200px;
 	}
@@ -358,6 +360,7 @@ footer {
 
 	#gender {
 		width:20%;
+		min-width: 15%;
 		margin: 0 2.5%;
 		height:200px;
 		text-align: center;
@@ -369,6 +372,7 @@ footer {
 
 	#time-section {
 		width:20%;
+		min-width: 15%;
 		margin: 0 2.5%;
 		height:200px;
 	}
