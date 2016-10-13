@@ -41,6 +41,7 @@ h2 {
 	height:50px;
 	left:0;
 	right:0;
+	text-align: center;
 }
 
 /*
@@ -225,8 +226,6 @@ footer {
 		height:200px;
 		text-align: center;
 	}
-
-	
 
 	/*
 	* --- Gender Input Section ---
