@@ -143,6 +143,18 @@ table {
 }
 
 /*
+* === FOOTER ====================================
+*/
+
+footer {
+	width: 100%;
+    height: 50px;  
+    position: fixed; 
+    bottom: 0px; 
+    left: 0px; 
+}
+
+/*
 * === 2x2 GRID LAYOUT ==============================
 */
 
@@ -229,8 +241,32 @@ table {
 
 @media (min-width: 63em) {
 
+	/*
+	* --- Wrapper ---
+	*/
+
 	#input-wrapper {
-		margin: 0 10%;
+		margin: 0%;
+	}
+
+	/*
+	* --- Ads ---
+	*/
+
+	.adsbygoogle {
+		display:inline-block;
+		width:120px;
+		height:600px;
+	}
+
+	#left-gutter-ad {
+		float:left;
+		width: 10%;
+	}
+
+	#right-gutter-ad {
+		float:right;
+		width: 10%;
 	}
 
 	/*
@@ -238,7 +274,7 @@ table {
 	*/
 
 	#conversion-type {
-		width:20%;
+		width:15%;
 		margin: 0 2.5%;
 		height:200px;
 	}
@@ -248,7 +284,7 @@ table {
 	*/
 
 	#events {
-		width:20%;
+		width:15%;
 		margin: 0 2.5%;
 		height:200px;
 	}
@@ -258,7 +294,7 @@ table {
 	*/
 
 	#gender {
-		width:20%;
+		width:15%;
 		margin: 0 2.5%;
 		height:200px;
 		text-align: center;
@@ -269,9 +305,25 @@ table {
 	*/
 
 	#time-section {
-		width:20%;
+		width:15%;
 		margin: 0 2.5%;
 		height:200px;
+	}
+
+	/*
+	* --- Convert Button Section ---
+	*/
+
+	#convert-button {
+		clear:both;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#convert-button-section {
+		width:80%;
+		float: left;
+		text-align: center;
 	}
 
 }

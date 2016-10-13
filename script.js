@@ -111,6 +111,7 @@ var fFtoBO = {"200m": .9847,
 			 "dmr": .9894
 			 };
 
+(adsbygoogle = window.adsbygoogle || []).push({});
 
 function convertTime() {
 	var uToFButton = document.getElementById("utof");
