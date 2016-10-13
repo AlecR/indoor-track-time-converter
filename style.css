@@ -146,7 +146,7 @@ table {
 * === 2x2 GRID LAYOUT ==============================
 */
 
-@media (min-width: 32em) {
+@media (min-width: 32em)  {
 
 	/*
 	* --- Section Titles ---
