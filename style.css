@@ -1,0 +1,284 @@
+body {
+	background-color: #1C68A5;
+	font-family: 'Oswald', sans-serif;
+}
+
+/*
+* === SECTION TITLES ==============================
+*/
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+/*
+* === SECTIONS ====================================
+*/
+
+/*
+* --- Track Type Section ---
+*/
+
+	#conversion-type {
+		text-align: center;
+	}
+
+
+	#conversion-type-form { 
+		margin: 0 auto;
+	}
+
+	#conversion-type-buttons {
+		display: inline-block;
+		text-align: left;
+		min-width: 227px;
+	}
+
+/*
+* --- Time Input Section ---
+*/
+
+.time-input {
+	display:inline-block;
+	width:60px;
+}
+
+#time-section h2 {
+	margin-bottom: 0px;
+}
+
+#time-section p {
+	display: inline-block;
+}
+
+/*
+* --- Event Input Section ---
+*/
+
+#events {
+	text-align: center;
+}
+
+#events h2 {
+	margin-bottom: 10px;
+}
+
+/*
+* --- Gender Input Section ---
+*/
+
+#gender h2 {
+	text-align: center;
+}
+
+#gender-form {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#gender-buttons {
+	display: inline-block;
+	text-align: left;
+}
+
+/*
+* --- Time Input Section ---
+*/
+
+#time-section h2 {
+	text-align: center;
+}
+
+#time-input-section {
+	text-align: center;
+}
+
+/*
+* --- Converted Time Section / Table ---
+*/
+
+td img {
+	width:100px;
+	padding: 0 5px 20px;
+}
+
+td {
+	text-align: center;
+}
+
+#converted-time-section {
+	margin-top:10px;
+}
+
+#converted-time-section p {
+	margin-top: 0;
+	font-size: 2em;
+}
+
+
+.positive-change {
+	color: red;
+}
+
+.negative-change {
+	color: #2d9147;
+}
+
+table {
+	margin: 0 auto;
+}
+
+/*
+* --- Convert Button ---
+*/
+
+#convert-button-section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+/*
+* === 2x2 GRID LAYOUT ==============================
+*/
+
+@media (min-width: 510px) {
+
+	/*
+	* --- Section Titles ---
+	*/
+
+	h2 {
+		text-align: center;
+	}
+
+	/*
+	* --- Track Type Section ---
+	*/
+
+	#conversion-type {
+		float: left;
+		width:40%;
+		margin: 0 0 0 10%;
+		height:200px;
+		text-align: center;
+	}
+
+	
+
+	/*
+	* --- Gender Input Section ---
+	*/
+
+	#gender {
+		float: left;
+		width:40%;
+		margin: 0 0 0 10%;
+		height:200px;
+	}
+
+	/*
+	* --- Event Input Section ---
+	*/
+
+	#events {
+		float: left;
+		width:40%;
+		margin: 0 10% 0 0;
+		height:200px;
+	}
+
+	/*
+	* --- Time Input Section ---
+	*/
+
+	#time-section {
+		float: left;
+		width:40%;
+		margin: 0 10% 0 0;
+		height:200px;
+	}
+
+	/*
+	* --- Convert Button Section ---
+	*/
+
+	#convert-button {
+		clear:both;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#convert-button-section {
+		width:100%;
+		float: left;
+		text-align: center;
+	}
+
+	button {
+		width:100px;
+	}
+
+/*
+* === 4x1 GRID LAYOUT ====================================
+*/
+
+@media (min-width: 1000px) {
+
+	#input-wrapper {
+		margin: 0 10%;
+	}
+
+	/*
+	* --- Track Type Input Section ---
+	*/
+
+	#conversion-type {
+		width:20%;
+		margin: 0 2.5%;
+		height:200px;
+	}
+	
+	/*
+	* --- Event Input Section ---
+	*/
+
+	#events {
+		width:20%;
+		margin: 0 2.5%;
+		height:200px;
+	}
+
+	/*
+	* --- Gender Input Section ---
+	*/
+
+	#gender {
+		width:20%;
+		margin: 0 2.5%;
+		height:200px;
+		text-align: center;
+	}
+
+	/*
+	* --- Time Input Section ---
+	*/
+
+	#time-section {
+		width:20%;
+		margin: 0 2.5%;
+		height:200px;
+	}
+
+}
+
+}
+
+
+
+
+
+

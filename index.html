@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<script type="text/javascript" src="script.js" async></script>
+	<title>NCAA Indoor Time Converter</title>
+</head>
+<body>
+	<h1>NCAA Indoor Track Time Converter</h1>
+	<section id="input-wrapper">
+		<section id="conversion-type">
+			<h2>Conversion Type</h2>
+			<section id="conversion-type-form">
+				<form action="" id="conversion-type-buttons">
+					<input type="radio" name="track type" value="botof" checked="checked" id="botof"> 
+						<label for="botof">Banked/Oversized to Flat</label>
+						<br>
+					<input type="radio" name="track type" value="utof" id="utof"> 
+						<label for="utof">Undersized to Flat</label>
+						<br>
+					<input type="radio" name="track type" value="utobo" id="utobo"> 
+						<label for="utobo">Undersized to Banked/Oversized</label>
+						<br>
+					<input type="radio" name="track type" value="ftobo" id="ftobo"> 
+						<label for="ftobo">Flat to Banked/Oversized</label>
+						<br>
+				</form>
+			</section>
+		</section>
+		<section id="events">
+			<h2>Event</h2>
+			<select name="events" id="event-selector">
+				<option selected disabled>Select Event</option>
+				<option value="200m">200 meters</option>
+				<option value="400m">400 meters</option>
+				<option value="500m">500 meters</option>
+				<option value="600y">600 yards</option>
+				<option value="600m">600 meters</option>
+				<option value="800m">800 meters</option>
+				<option value="1000m">1000 meters</option>
+				<option value="mile">Mile</option>
+				<option value="3000m">3000 meters</option>
+				<option value="5000m">5000 meters</option>
+				<option value="4x400m">4x400 meter relay</option>
+				<option value="4x800m">4x800 meter relay</option>
+				<option value="dmr">Distance Medley Relay</option>
+			</select>
+		</section>
+		<section id="gender">
+			<h2>Gender</h2>
+			<section id="gender-form">
+				<form action="" id="gender-buttons">
+					<input type="radio" name="gender" value="male" id="male-radio-button" checked="checked"> 
+						<label for="male-radio-button">Male</label>
+						<br>
+					<input type="radio" name="gender" value="female" id="female-radio-button"> 
+						<label for="female-radio-button">Female</label>
+						<br>
+				</form>
+			</section>
+		</section>
+		<section id="time-section">
+			<h2>Time</h2>
+			<section id="time-input-section">
+				<input type="number" name="minutes" class="time-input" id="min-input" min="0" placeholder="Minutes"/>
+				<p>:</p>
+				<input type="number" name="seconds" class="time-input" id="sec-input" min="0" max="59" placeholder="Seconds"/>
+			</section>
+			<br>
+		</section>
+		<section id="convert-button-section">
+			<button type="button" id="convert-button" onclick="convertTime()">Convert</button>
+		</section>
+		<section id="converted-time-section">
+			<table>
+				<tr>
+					<th id="original-track"></th>
+					<th id="time-difference"></th>
+					<th id="converted-track"></th>
+				</tr>
+				<tr>
+					<td> <p id="original-time-text"></p> </td>
+					<td id="arrow-image-cell"> </td>
+					<td> <p id="converted-time-text"></p> </td>
+				</tr>
+			</table>
+		</section>
+	</section>
+</body>
+
+</html>
+
+
+
+
+
+
