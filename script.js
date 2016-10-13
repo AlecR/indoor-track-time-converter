@@ -111,7 +111,7 @@ var fFtoBO = {"200m": .9847,
 			 "dmr": .9894
 			 };
 
-(adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle|| []).push({});
 
 function convertTime() {
 	var uToFButton = document.getElementById("utof");
@@ -187,8 +187,11 @@ function calculateTime(ratio, timeInSeconds, originalTrack, convertedTrack) {
 	var timeDifference = (convertedTime - timeInSeconds).toFixed(2);
 	var timeDifferenceString = "";
 
+	document.getElementById("time-difference").className = "";
+
 	if(timeDifference > 0) {
 		timeDifferenceString = "+" + timeDifference;
+
 		document.getElementById("time-difference").className = "positive-change";
 	} else {
 		timeDifferenceString = timeDifference;

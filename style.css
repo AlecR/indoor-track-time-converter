@@ -1,6 +1,10 @@
+
 body {
 	background-color: #1C68A5;
 	font-family: 'Oswald', sans-serif;
+	max-width: 100%;
+	padding-bottom: 100px;
+	margin: 0;
 }
 
 /*
@@ -13,6 +17,30 @@ h1 {
 
 h2 {
 	text-decoration: underline;
+}
+
+/*
+* === ADS ====================================
+*/
+
+/* Gutter ads aren't displayed in mobile site */
+
+#right-gutter-ad {
+	display: none;
+}
+
+#left-gutter-ad {
+	display: none;
+}
+
+/* This ad will only display in mobile and 2x2 grid mode */
+
+#mobile-bottom-ad {
+	position: fixed;
+	bottom: 0;
+	height:50px;
+	left:0;
+	right:0;
 }
 
 /*
@@ -122,15 +150,19 @@ td {
 
 
 .positive-change {
-	color: red;
+	color: #bc0207;
 }
 
 .negative-change {
-	color: #2d9147;
+	color: #02bb02;
 }
 
 table {
 	margin: 0 auto;
+}
+
+#time-difference {
+	font-family: arial;
 }
 
 /*
@@ -159,6 +191,20 @@ footer {
 */
 
 @media (min-width: 32em)  {
+
+	/*
+	* --- Wrappers ---
+	*/
+
+	#input-wrapper {
+		width: 100%;
+		margin: 0;
+	}
+
+	#wrapper {
+		width: 100%;
+		margin: 0;
+	}
 
 	/*
 	* --- Section Titles ---
@@ -242,12 +288,20 @@ footer {
 @media (min-width: 63em) {
 
 	/*
-	* --- Wrapper ---
+	* --- Wrappers ---
 	*/
 
 	#input-wrapper {
-		margin: 0%;
+		display: inline-block;
+		width: 80%;
+		height:200px;
 	}
+
+	#wrapper {
+		width: 100%;
+		margin: 0;
+	}
+
 
 	/*
 	* --- Ads ---
@@ -260,13 +314,21 @@ footer {
 	}
 
 	#left-gutter-ad {
-		float:left;
+		display:inline-block;
 		width: 10%;
+		float:left;
+		text-align: center;
 	}
 
 	#right-gutter-ad {
-		float:right;
+		display: inline-block;
 		width: 10%;
+		float: right;
+		text-align: center;
+	}
+
+	#mobile-bottom-ad {
+		display:none;
 	}
 
 	/*
@@ -274,7 +336,7 @@ footer {
 	*/
 
 	#conversion-type {
-		width:15%;
+		width:20%;
 		margin: 0 2.5%;
 		height:200px;
 	}
@@ -284,7 +346,7 @@ footer {
 	*/
 
 	#events {
-		width:15%;
+		width:20%;
 		margin: 0 2.5%;
 		height:200px;
 	}
@@ -294,7 +356,7 @@ footer {
 	*/
 
 	#gender {
-		width:15%;
+		width:20%;
 		margin: 0 2.5%;
 		height:200px;
 		text-align: center;
@@ -305,7 +367,7 @@ footer {
 	*/
 
 	#time-section {
-		width:15%;
+		width:20%;
 		margin: 0 2.5%;
 		height:200px;
 	}
