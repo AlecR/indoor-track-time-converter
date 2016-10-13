@@ -316,6 +316,7 @@ footer {
 	#left-gutter-ad {
 		display:inline-block;
 		min-width: 10%;
+		min-height: 600px;
 		float:left;
 		text-align: center;
 	}
@@ -323,6 +324,7 @@ footer {
 	#right-gutter-ad {
 		display: inline-block;
 		min-width: 10%;
+		min-height: 600px;
 		float: right;
 		text-align: center;
 	}
