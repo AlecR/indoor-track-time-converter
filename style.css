@@ -315,14 +315,14 @@ footer {
 
 	#left-gutter-ad {
 		display:inline-block;
-		width: 10%;
+		min-width: 10%;
 		float:left;
 		text-align: center;
 	}
 
 	#right-gutter-ad {
 		display: inline-block;
-		width: 10%;
+		min-width: 10%;
 		float: right;
 		text-align: center;
 	}
