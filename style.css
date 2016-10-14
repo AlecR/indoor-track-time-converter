@@ -374,9 +374,13 @@ footer {
 
 	#time-section {
 		width:20%;
-		min-width: 15%;
+		min-width: 20%;
 		margin: 0 2.5%;
 		height:200px;
+	}
+
+	#time-input-section {
+		min-width:150px;
 	}
 
 	/*
